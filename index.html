@@ -289,21 +289,23 @@
       <form action="https://api.web3forms.com/submit" method="POST">
         <div class="input-box">
           <input type="hidden" name="access_key" value="23acc062-07f3-4217-ae81-324b98244728">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" placeholder="Full Name" name="name" />
+          <input type="email" placeholder="Email Address" name="email" />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Subject" />
+          <input type="number" placeholder="Mobile Number" name="mobile" />
+          <input type="text" placeholder="Subject" name="subject" />
         </div>
         <textarea
           name=""
           id=""
           cols="30"
           rows="5"
-          placeholder="Your Message"
+          placeholder="Your Message" name="message"
         ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+       
+        <button type="submit" value="Send Message" class="btn" >Submit Form</button>
+
       </form>
     </section>
 
